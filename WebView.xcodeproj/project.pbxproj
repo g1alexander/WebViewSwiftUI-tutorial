@@ -11,6 +11,8 @@
 		0406BAD82919950600DD43EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406BAD72919950600DD43EF /* ContentView.swift */; };
 		0406BADA2919950700DD43EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0406BAD92919950700DD43EF /* Assets.xcassets */; };
 		0406BADD2919950700DD43EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0406BADC2919950700DD43EF /* Preview Assets.xcassets */; };
+		0406BAE4291996BA00DD43EF /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406BAE3291996BA00DD43EF /* WebView.swift */; };
+		0406BAE62919989600DD43EF /* SafariWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406BAE52919989600DD43EF /* SafariWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0406BAD72919950600DD43EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0406BAD92919950700DD43EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0406BADC2919950700DD43EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0406BAE3291996BA00DD43EF /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		0406BAE52919989600DD43EF /* SafariWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				0406BAD52919950600DD43EF /* WebViewApp.swift */,
 				0406BAD72919950600DD43EF /* ContentView.swift */,
+				0406BAE3291996BA00DD43EF /* WebView.swift */,
+				0406BAE52919989600DD43EF /* SafariWebView.swift */,
 				0406BAD92919950700DD43EF /* Assets.xcassets */,
 				0406BADB2919950700DD43EF /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0406BAE4291996BA00DD43EF /* WebView.swift in Sources */,
+				0406BAE62919989600DD43EF /* SafariWebView.swift in Sources */,
 				0406BAD82919950600DD43EF /* ContentView.swift in Sources */,
 				0406BAD62919950600DD43EF /* WebViewApp.swift in Sources */,
 			);
